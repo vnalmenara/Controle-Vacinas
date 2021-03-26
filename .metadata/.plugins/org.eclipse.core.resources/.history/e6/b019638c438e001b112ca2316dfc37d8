@@ -1,0 +1,5 @@
+package com.controlevacinas.controleVacinas.model;
+
+public class Pessoa {
+
+}

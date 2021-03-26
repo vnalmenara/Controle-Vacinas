@@ -1,0 +1,5 @@
+package com.controlevacinas.controleVacinas.repository;
+
+public interface GrupoPrioridadesRepository {
+
+}

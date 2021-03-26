@@ -1,0 +1,9 @@
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.url=jsbc:postgresql://localhost:5432/controle_vacinas?createDatabaseIfNotExist=true&useSSL=false
+spring.datasource.username=postgres
+spring.datasource.password=Fox_21_11
+spring.jpa.show-sql=true
+
+spring.autoconfigure.exclude= \org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, \
+  org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, \
+  org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration
