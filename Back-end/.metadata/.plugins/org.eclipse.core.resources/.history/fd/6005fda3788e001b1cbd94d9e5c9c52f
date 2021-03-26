@@ -1,0 +1,17 @@
+package com.controlevacinas.controleVacinas.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import com.controlevacinas.controleVacinas.repository.GrupoPrioridadesRepository;
+
+@RestController
+@RequestMapping("/grupo-prioridades")
+public class GrupoPrioridadesController {
+	
+	@Autowired
+	private GrupoPrioridadesRepository grupoRepository;
+	
+	
+
+}
