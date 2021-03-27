@@ -14,7 +14,6 @@ import com.controlevacinas.controleVacinas.repository.GrupoPrioridadesRepository
 
 @RestController
 @RequestMapping("/grupo-prioridades")
-@CrossOrigin(origins = {"http://localhost:3000"})
 public class GrupoPrioridadesController {
 	
 	@Autowired
