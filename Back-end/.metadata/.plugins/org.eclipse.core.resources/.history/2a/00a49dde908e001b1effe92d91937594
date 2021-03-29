@@ -40,6 +40,14 @@ public class GrupoPrioridades {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
+	
+	public Pessoa getPessoa() {
+		return pessoa;
+	}
+
+	public void setPessoa(Pessoa pessoa) {
+		this.pessoa = pessoa;
+	}
 
 	@Override
 	public int hashCode() {
@@ -48,6 +56,7 @@ public class GrupoPrioridades {
 		result = prime * result + ((codigo == null) ? 0 : codigo.hashCode());
 		result = prime * result + ((descricao == null) ? 0 : descricao.hashCode());
 		result = prime * result + ((nome == null) ? 0 : nome.hashCode());
+		result = prime * result + ((pessoa == null) ? 0 : pessoa.hashCode());
 		return result;
 	}
 
@@ -74,6 +83,11 @@ public class GrupoPrioridades {
 			if (other.nome != null)
 				return false;
 		} else if (!nome.equals(other.nome))
+			return false;
+		if (pessoa == null) {
+			if (other.pessoa != null)
+				return false;
+		} else if (!pessoa.equals(other.pessoa))
 			return false;
 		return true;
 	}

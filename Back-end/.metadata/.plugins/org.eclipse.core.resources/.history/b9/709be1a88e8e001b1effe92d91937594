@@ -17,7 +17,6 @@ import com.controlevacinas.controleVacinas.repository.PessoaRepository;
 
 @RestController
 @RequestMapping("/pessoas")
-@CrossOrigin(origins = {"http://localhost:3000"})
 public class PessoaController {
 
 	@Autowired
